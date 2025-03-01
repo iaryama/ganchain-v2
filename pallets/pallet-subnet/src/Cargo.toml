@@ -1,0 +1,14 @@
+[package]
+name = "pallet-subnet"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+frame-support = { version = "39.0.0", default-features = false }
+frame-system = { version = "39.1.0", default-features = false }
+sp-std = { version = "14.0.0", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+sp-core = { version = "35.0.0", default-features = false }
+sp-runtime = { version = "40.1.0", default-features = false }
